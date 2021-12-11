@@ -219,10 +219,12 @@ section {
     display: grid;
     -ms-grid-columns: 66% auto;
         grid-template-columns: 66% auto;
-    background: unset;
+    background: #fff;
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   }
   .nav-container header {
-    background: #ec2ebd;
+    background: #fff;
   }
   header {
     padding: 2em 2em 2em 4em;

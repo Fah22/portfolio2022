@@ -210,10 +210,12 @@ section {
   .nav-container {
     display: grid;
     grid-template-columns: 66% auto;
-    background: unset;
+    background: #fff;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+
 
     header {
-      background: #ec2ebd;
+      background: #fff;
     }
   }
 
