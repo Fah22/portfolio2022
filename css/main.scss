@@ -35,6 +35,7 @@ header {
   .logo {
     color: #272c66;
     font-weight: bold;
+    font-size: 20px;
   }
 
   ul {
@@ -82,7 +83,20 @@ section {
   position: relative;
 }
 
-.featured::before {
+.download-resume {
+  padding: 1.6em;
+  background: #272c66;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.download-resume-btn {
+  color: #fff;
+
+}
+
+/* .featured::before {
   content: "";
   position: absolute;
   width: 200px;
@@ -93,7 +107,7 @@ section {
   left: 0;
   z-index: -1;
   opacity: 80%;
-}
+} */
 
 .subtitle {
   text-transform: uppercase;
@@ -121,6 +135,12 @@ section {
 
 .skills {
   background: #272c66;
+}
+
+.skills-header {
+  color: #fff;
+  margin-top: -10px;
+  font-size: 30px;
 }
 
 .skills-container ul li {
@@ -182,7 +202,7 @@ section {
   }
 
   .skills {
-    margin-top: -5em;
+    margin-top: 0em;
     margin-bottom: -7em;
     padding-top: 7em;
   }
@@ -199,6 +219,7 @@ section {
 
   .portfolio-container img {
     margin-left: 2em;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   }
 }
 
@@ -212,7 +233,6 @@ section {
     grid-template-columns: 66% auto;
     background: #fff;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-
 
     header {
       background: #fff;
@@ -260,6 +280,7 @@ section {
       h1 {
         font-size: 3em;
         line-height: 1.2em;
+        margin: 1.5em 0em;
       }
     }
   }
