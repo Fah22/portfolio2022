@@ -148,6 +148,7 @@ section {
   padding: 2em;
   border-radius: 1em;
   margin-bottom: 1em;
+   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 
   .icon-container {
     height: 100px;
@@ -170,7 +171,7 @@ section {
 }
 
 .portfolio {
-  background: #f7f7f7;
+  background: #fff;
 }
 
 .portfolio-container a img {
