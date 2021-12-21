@@ -141,6 +141,11 @@ section {
   font-weight: 500;
 }
 
+.my-work {
+  text-align: center;
+  padding: 2em;
+}
+
 .skills {
   background: #272c66;
 }
@@ -187,6 +192,40 @@ section {
 .portfolio-container a img {
   border-radius: 1em;
   margin-bottom: 2em;
+}
+
+.talk-to-me {
+  text-align: center;
+}
+
+.talk-to-me-para {
+  text-align: center;
+}
+
+.contact-btn {
+  padding: 1em;
+}
+
+.email-me {
+  width: 140px;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.email-me:hover {
+  background: #ec2ebd;
+}
+
+.email-me a {
+  color: #272c66;
+  font-weight: 500;
+}
+
+.email-me a:hover {
+  color: #fff;
 }
 
 @media only screen and (min-width: 800px) {
