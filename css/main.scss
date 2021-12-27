@@ -1,8 +1,11 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   height: 100vh;
   margin: 0;
   font-family: "Raleway", sans-serif;
-  scroll-behavior: smooth;
 }
 
 ul {
@@ -110,19 +113,6 @@ section {
   color: #fff;
 
 }
-
-/* .featured::before {
-  content: "";
-  position: absolute;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  background: #fcc4ee;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  opacity: 80%;
-} */
 
 .subtitle {
   text-transform: uppercase;
@@ -318,6 +308,12 @@ section {
 
       img {
         width: 20px;
+        transition: transform .2s;
+      }
+
+      img:hover {
+        transform: scale(2.1);
+        border-radius: 20px;
       }
     }
   }

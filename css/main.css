@@ -1,8 +1,11 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   height: 100vh;
   margin: 0;
   font-family: "Raleway", sans-serif;
-  scroll-behavior: smooth;
 }
 
 ul {
@@ -125,18 +128,6 @@ section {
   color: #fff;
 }
 
-/* .featured::before {
-  content: "";
-  position: absolute;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  background: #fcc4ee;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  opacity: 80%;
-} */
 .subtitle {
   text-transform: uppercase;
   font-weight: bold;
@@ -332,6 +323,15 @@ section {
   }
   .social-header ul img {
     width: 20px;
+    -webkit-transition: -webkit-transform .2s;
+    transition: -webkit-transform .2s;
+    transition: transform .2s;
+    transition: transform .2s, -webkit-transform .2s;
+  }
+  .social-header ul img:hover {
+    -webkit-transform: scale(2.1);
+            transform: scale(2.1);
+    border-radius: 20px;
   }
   .hero {
     display: -ms-grid;
