@@ -4,15 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Site Title -->
     <title>Fadziso Ndoro | Front-End Developer</title>
+    <!-- CSS Stylesheet-->
     <link rel="stylesheet" href="./css/main.css">
+    <!-- Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <!-- Lottie Files -->
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <!-- AOS Animation on Scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
+
 <body>
     <div class="nav-container">
         <header>
@@ -25,7 +30,7 @@
                         <a href="#skills">My Skills</a>
                     </li>
                     <li>
-                        <a href="#">Hire Me</a>
+                        <a href="#contact">Contact Me</a>
                     </li>
                 </ul>
             </nav>
@@ -54,7 +59,7 @@
     <div class="hero">
         <div class="content">
             <h1>Hello, I'm Fah </h1>
-            <p>Junior Front-End Developer and Fitness Enthusiast</p>
+            <p class="content-para">Web Designer & Front-End Developer</p>
             <div class="meet">
                 <button class="download-resume">
                     <a class="download-resume-btn" href="/assets/Ndoro Fadziso - Resume.pdf" download="Fadziso Ndoro Resume">Download Resume</a>
@@ -65,23 +70,12 @@
             background="transparent" speed="1" style="width: 700px; height: 700px;" loop autoplay>
         </lottie-player>
     </div>
-<!--
-    <section class="featured">
-        <div class="left">
-            <div class="inner transition2">
-                <p class="subtitle">Featured Project</p>
-                <a href="#" class="featured-title">www.design.com</a>
-                <p class="featured-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi omnis nesciunt fugiat atque vel, facilis vitae velit mollitia expedita laborum id soluta tempore quos aliquid quae ipsa corrupti itaque tempora?</p>
-            </div>
-        </div>
-        <img class="right transition2" src="./images/ruben-menarguez-v_1t1DzfAUA-unsplash.jpg" alt="featured-sc" />
-    </section>
--->
     <section class="skills" id="skills">
         <h1 class="skills-header">What I Do</h1>
         <div class="skills-container">
             <ul>
-                <li class="transition2">
+                <li class="transition2" data-aos="fade-up"
+                                        data-aos-duration="3000">
                     <div class="icon-container one">
                         <img src="./images/coding-svgrepo-com.svg" alt="code" />
                     </div>
@@ -95,7 +89,8 @@
                         interfaces
                     </p>
                 </li>
-                <li class="transition2">
+                <li class="transition2" data-aos="fade-up"
+                                        data-aos-duration="2000">
                     <div class="icon-container one">
                         <img src="./images/figma.svg" alt="figma" />
                     </div>
@@ -105,7 +100,8 @@
                         in the implementation of product designs.
                     </p>
                 </li>
-                <li class="transition2">
+                <li class="transition2" data-aos="fade-up"
+                                        data-aos-duration="1000">
                     <div class="icon-container one">
                         <img src="./images/wordpress.svg" alt="wordpress" />
                     </div>
@@ -132,7 +128,12 @@
                 </div>
             </div>
             <a href="#">
-                <img src="./images/ruben-menarguez-v_1t1DzfAUA-unsplash.jpg" alt="project-screenshot" class="project-img"/>
+                <img src="./images/ruben-menarguez-v_1t1DzfAUA-unsplash.jpg" 
+                     alt="project-screenshot" 
+                     class="project-img" 
+                     data-aos="fade-left"
+                     data-aos-duration="500"
+                />
             </a>
         </div>
         <div class="portfolio-container transition3">
@@ -146,7 +147,11 @@
                 </div>
             </div>
             <a href="#">
-                <img src="./images/ruben-menarguez-v_1t1DzfAUA-unsplash.jpg" alt="project-screenshot" class="project-img" />
+                <img src="./images/ruben-menarguez-v_1t1DzfAUA-unsplash.jpg" 
+                     alt="project-screenshot" 
+                     class="project-img"
+                     data-aos="fade-left"
+                     data-aos-duration="1500" />
             </a>
         </div>
         <div class="portfolio-container transition3">
@@ -161,7 +166,10 @@
                 </div>
             </div>
             <a href="#">
-                <img src="./images/Industria - project.png" alt="project-screenshot" />
+                <img src="./images/Industria - project.png" 
+                    alt="project-screenshot"
+                    data-aos="fade-left"
+                    data-aos-duration="2500" />
             </a>
         </div>
         <div class="portfolio-container transition3">
@@ -175,7 +183,10 @@
                 </div>
             </div>
             <a href="#">
-                <img src="./images/RICO - project.png" alt="project-screenshot" />
+                <img src="./images/RICO - project.png" 
+                     alt="project-screenshot"
+                     data-aos="fade-left"
+                     data-aos-duration="3000" />
             </a>
         </div>
     </section>
@@ -192,5 +203,18 @@
             </div>
         </div>
     </section>
+
+    <!-- Copyrights -->
+    <footer>
+        <div class="copyright-footer">
+            <p>&#169; 2022 By Fadziso Ndoro </p>
+        </div>
+    </footer>
+
+    <!-- AOS Animate On Scroll -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

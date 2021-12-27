@@ -1,7 +1,7 @@
 body {
   height: 100vh;
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -17,6 +17,26 @@ a {
 
 img {
   width: 100%;
+}
+
+footer {
+  width: 100%;
+  background: #ec2ebd;
+  height: 100px;
+}
+
+footer .copyright-footer p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 2.4em 0em;
+  color: #272c66;
 }
 
 .nav-container {
@@ -329,7 +349,11 @@ section {
   .hero .content h1 {
     font-size: 3em;
     line-height: 1.2em;
-    margin: 1.5em 0em;
+    margin: 1em 0em;
+  }
+  .hero .content p {
+    margin: 1em 0em;
+    font-size: 22px;
   }
   .meet {
     margin: unset;

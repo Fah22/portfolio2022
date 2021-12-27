@@ -1,7 +1,7 @@
 body {
   height: 100vh;
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -19,12 +19,27 @@ img {
   width: 100%;
 }
 
+ footer {
+    width: 100%;
+    background: #ec2ebd;
+    height: 100px;
+
+    .copyright-footer p {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2.4em 0em;
+      color: #272c66;
+    }
+  }
+
 .nav-container {
   background: #ec2ebd;
 
   a {
     color: #272c66;
   }
+
 }
 
 header {
@@ -321,7 +336,12 @@ section {
       h1 {
         font-size: 3em;
         line-height: 1.2em;
-        margin: 1.5em 0em;
+        margin: 1em 0em;
+      }
+
+      p {
+        margin: 1em 0em;
+        font-size: 22px;
       }
     }
   }
@@ -341,6 +361,7 @@ section {
     float: right;
     max-width: 500px;
   }
+
 }
 
 @media only screen and (min-width: 1250px) {
