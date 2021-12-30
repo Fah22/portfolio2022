@@ -106,6 +106,10 @@ header ul a {
   margin-right: 0.5em;
 }
 
+#year {
+  margin: 5px;
+}
+
 section {
   padding: 4em 2em;
   text-align: center;
