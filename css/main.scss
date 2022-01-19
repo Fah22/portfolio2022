@@ -22,19 +22,19 @@ img {
   width: 100%;
 }
 
- footer {
-    width: 100%;
-    background: #ec2ebd;
-    height: 100px;
+footer {
+  width: 100%;
+  background: #ec2ebd;
+  height: 100px;
 
-    .copyright-footer p {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 2.4em 0em;
-      color: #272c66;
-    }
+  .copyright-footer p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2.4em 0em;
+    color: #272c66;
   }
+}
 
 .nav-container {
   background: #ec2ebd;
@@ -42,13 +42,12 @@ img {
   a {
     color: #272c66;
   }
-
 }
 
 header {
   display: flex;
   justify-content: space-between;
-  padding: 2em;
+  padding: 2em 3em;
 
   .logo {
     color: #272c66;
@@ -106,7 +105,7 @@ section {
 }
 
 .download-resume {
-  padding: 1.6em;
+  padding: 1.7em ;
   background: #272c66;
   border: none;
   border-radius: 20px;
@@ -115,7 +114,6 @@ section {
 
 .download-resume-btn {
   color: #fff;
-
 }
 
 .subtitle {
@@ -162,7 +160,7 @@ section {
   padding: 2em;
   border-radius: 1em;
   margin-bottom: 1em;
-   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 
   .icon-container {
     height: 100px;
@@ -230,26 +228,26 @@ section {
 /* Icon Down */
 @-webkit-keyframes hvr-icon-down {
   0%,
-	50%,
-	100% {
+  50%,
+  100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
   25%,
-	75% {
+  75% {
     -webkit-transform: translateY(6px);
     transform: translateY(6px);
   }
 }
 @keyframes hvr-icon-down {
   0%,
-	50%,
-	100% {
+  50%,
+  100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
   25%,
-	75% {
+  75% {
     -webkit-transform: translateY(6px);
     transform: translateY(6px);
   }
@@ -266,7 +264,9 @@ section {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
 }
-.hvr-icon-down:hover .hvr-icon, .hvr-icon-down:focus .hvr-icon, .hvr-icon-down:active .hvr-icon {
+.hvr-icon-down:hover .hvr-icon,
+.hvr-icon-down:focus .hvr-icon,
+.hvr-icon-down:active .hvr-icon {
   -webkit-animation-name: hvr-icon-down;
   animation-name: hvr-icon-down;
   -webkit-animation-duration: 0.75s;
@@ -274,7 +274,6 @@ section {
   -webkit-animation-timing-function: ease-out;
   animation-timing-function: ease-out;
 }
-
 
 @media only screen and (min-width: 800px) {
   .featured,
@@ -360,7 +359,7 @@ section {
 
       img {
         width: 20px;
-        transition: transform .2s;
+        transition: transform 0.2s;
       }
 
       img:hover {
@@ -409,7 +408,6 @@ section {
     float: right;
     max-width: 500px;
   }
-
 }
 
 @media only screen and (min-width: 1250px) {
