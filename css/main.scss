@@ -105,7 +105,7 @@ section {
 }
 
 .download-resume {
-  padding: 1.7em ;
+  padding: 1.7em;
   background: #272c66;
   border: none;
   border-radius: 20px;
@@ -273,6 +273,14 @@ section {
   animation-duration: 0.75s;
   -webkit-animation-timing-function: ease-out;
   animation-timing-function: ease-out;
+}
+
+#preloader {
+  background: #fff url('/images/brand-logo.png') no-repeat center;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
 }
 
 @media only screen and (min-width: 800px) {
