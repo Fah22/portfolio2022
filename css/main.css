@@ -337,8 +337,8 @@ section {
   .skills-container ul {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (auto)[3];
-        grid-template-columns: repeat(3, auto);
+    -ms-grid-columns: (auto);
+    grid-template-columns: repeat(3, auto);
     grid-gap: 1em;
   }
   .portfolio {
@@ -399,7 +399,7 @@ section {
   .social-header ul img:hover {
     -webkit-transform: scale(2.1);
             transform: scale(2.1);
-    border-radius: 20px;
+    /* border-radius: 20px; */
   }
   .hero {
     display: -ms-grid;
