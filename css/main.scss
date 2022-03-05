@@ -2,6 +2,10 @@ html {
   scroll-behavior: smooth;
 }
 
+:root {
+  --color-btn_inactive: linear-gradient(84.82deg, #00CCB8 3.44%, #00BBFF 100.53%);
+}
+
 body {
   height: 100vh;
   margin: 0;
