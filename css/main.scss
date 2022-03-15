@@ -3,7 +3,11 @@ html {
 }
 
 :root {
-  --color-btn_inactive: linear-gradient(84.82deg, #00CCB8 3.44%, #00BBFF 100.53%);
+  --color-btn_inactive: linear-gradient(
+    84.82deg,
+    #00ccb8 3.44%,
+    #00bbff 100.53%
+  );
 }
 
 body {
@@ -279,8 +283,26 @@ section {
   animation-timing-function: ease-out;
 }
 
+/* Grow */
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
+
 #preloader {
-  background: #fff url('/images/brand-logo.png') no-repeat center;
+  background: #fff url("/images/brand-logo.png") no-repeat center;
   height: 100vh;
   width: 100%;
   position: fixed;
@@ -455,4 +477,9 @@ section {
   .hero .content {
     padding: 9em 20em 6em 20em;
   }
+}
+
+.view-source {
+  color: #000;
+  text-decoration: underline;
 }
